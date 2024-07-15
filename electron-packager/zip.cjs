@@ -3,9 +3,7 @@ const zip = require("electron-installer-zip");
 zip(
   {
     dir: "./release/min-electron-darwin-arm64/min-electron.app",
-    // out can either be a directory or a path for a ZIP file
     out: "./app",
-    // out: 'dist/App.zip',
   },
   (err, res) => {
     if (err) {

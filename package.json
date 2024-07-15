@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "electron": "electron .",
-    "package": "node electron-packager/packager.js"
+    "package": "node electron-packager/packager.js",
+    "zip": "node electron-packager/zip.cjs"
   },
   "author": "",
   "license": "ISC",

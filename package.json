@@ -11,6 +11,9 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "vue": "^3.4.31"
+  },
   "devDependencies": {
     "@electron/packager": "^18.3.3",
     "electron": "^31.2.0",

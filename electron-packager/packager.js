@@ -2,7 +2,7 @@ import packager from "@electron/packager";
 
 try {
   const appPath = await packager({
-    dir: ".",
+    dir: "./dist",
     out: "./release",
     overwrite: true,
     platform: "darwin",

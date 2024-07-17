@@ -5,8 +5,10 @@ try {
     dir: "./dist",
     out: "./release",
     overwrite: true,
-    platform: "darwin",
-    arch: "arm64",
+    // platform: "darwin",
+    // arch: "arm64",
+    platform: "win32",
+    arch: "x64",
   });
   console.log("exported at: ", appPath);
 } catch (error) {
